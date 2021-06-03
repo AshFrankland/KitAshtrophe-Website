@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Bubblegum;
+    src: url(./fonts/Bubblegum.ttf);
+}
+
+/* div{
+    border: red 1px solid;
+} */
+
+#logo {
+    background-color: #006026;
+    height: 100px;
+}
+
+header {
+    overflow: hidden;
+    background-color: #67e079;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    min-height: 100px;
+    flex-direction: row;
+}
+
+nav a {
+    height: 100px;
+    float: left;
+    color: black;
+    text-align: center;
+}
+
+nav a.nav-link{
+    font-family: Bubblegum;
+    font-size: 25px;
+    padding: 35px 20px;
+}
+
+nav a.nav-link:hover {
+    background-color: #117030;
+    color: #adf0b7;
+}
+
+nav a.nav-link.active {
+    background-color: #006026;
+    color: #adf0b7;
+}
+
+html {
+    background-color: #adf0b7;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: Bubblegum;
+}
+
+h2 {
+    font-family: Bubblegum;
+}
+
+h2.qnumber {
+    text-align: left;
+}
+
+.home_img {
+    height: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+}
